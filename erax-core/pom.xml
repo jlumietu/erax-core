@@ -81,7 +81,7 @@
   	<connection>scm:git:http://127.0.0.1/dummy</connection>
     <developerConnection>scm:git:https://127.0.0.1/dummy</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/jlumietu/eej-utilities</url>
+    <url>https://github.com/jlumietu/erax-core</url>
   </scm>
   
   <distributionManagement>
