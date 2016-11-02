@@ -2,7 +2,7 @@ package com.erax.principal;
 
 /**
  * 
- * @author jlumietu
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface PrincipalSerializableIdLocator {
