@@ -4,7 +4,7 @@
 package com.erax;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public interface EraxCoreApplicationVersion {

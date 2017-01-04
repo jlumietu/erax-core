@@ -8,7 +8,7 @@ import java.io.Serializable;
 import com.erax.EraxCoreApplicationVersion;
 
 /**
- * @author DOIBALMI
+ * @author jlumietu - Mikel Ibiricu Alfaro
  *
  */
 public class VersionInfoBase implements Serializable, VersionInfo {
