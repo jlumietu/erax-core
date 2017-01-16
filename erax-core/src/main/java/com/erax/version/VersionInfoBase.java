@@ -4,6 +4,7 @@
 package com.erax.version;
 
 import java.io.Serializable;
+import java.util.Properties;
 
 import com.erax.EraxCoreApplicationVersion;
 
@@ -31,6 +32,16 @@ public class VersionInfoBase implements Serializable, VersionInfo {
 		super();
 		this.artifactName = artifactName;
 		this.artifactVersion = artifactVersion;
+	}
+	
+	public VersionInfoBase(Properties properties){
+		this(properties, DEFAULT_LIBRARY_NAME_PROPERTY_NAME, DEFAULT_LIBRARY_VERSION_PROPERTY_NAME);
+	}
+	
+	public VersionInfoBase(Properties properties, String libraryNameProperty, String libraryVersionProperty){
+		super();
+		this.artifactName = properties.getProperty(libraryNameProperty);
+		this.artifactVersion = properties.getProperty(libraryVersionProperty);
 	}
 
 	/**
